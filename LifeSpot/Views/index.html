@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../Static/CSS/Index.css" rel="stylesheet" type="text/css" />
+    <title>LifeSpot</title>
+    <script src="/Static/JS/index.js"></script>
+    <script>
+        checkAge();
+        handleSession();
+        sessionLog(); 
+    </script>
+</head>
+<body>
+    <header id="header-index">
+        <h1>LifeSpot — прямые трансляции с улиц</h1>
+        <p>Покажем, что происходит прямо сейчас</p>
+        <div class="search">
+            <input id="search-textbox" type="search" size="50" placeholder="Поиск..." oninput="filterContent()"/>
+        </div>
+    </header>
+    <!--SIDEBAR-->
+
+    <main>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Нью-Йорк, Брайант Парк</h3>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/h1wly909BYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>Санкт-Петербург, Невский Проспект</h3>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JplMzss6_YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Лондон, автобусный маршрут</h3>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cmkAbDUEoyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>Флорида, Hollywood Beach Broadwalk</h3>
+        </div>
+    </main>
+    <!--FOOTER-->
+</body>
+</html>
